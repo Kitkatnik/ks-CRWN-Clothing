@@ -3,6 +3,7 @@ import { useState } from 'react';
 import FormInput from '../form-input/form-input.component';
 import Button from '../button/button.component';
 
+
 import {  
     createUserDocumentFromAuth,
     signInAuthUserWithEmailAndPassword,
@@ -29,7 +30,6 @@ const SignInForm = () => {
 
         try {
             const { user } = await signInAuthUserWithEmailAndPassword(email, password);
-            console.log(user);
             resetFormFields();
         } catch( error ){
             switch( error.code ){
@@ -46,8 +46,7 @@ const SignInForm = () => {
     }
 
     const signInWithGoogle = async () => {
-        const { user } = await signInAuthUserWithGooglePopup();
-        await createUserDocumentFromAuth(user);
+        await signInAuthUserWithGooglePopup();
     }
 
     const handleChange = (event) => {
