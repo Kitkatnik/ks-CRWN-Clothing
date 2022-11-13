@@ -72,7 +72,7 @@ const SignUpForm = () => {
 
                 <FormInput 
                     label='Email'
-                    type='text'
+                    type='email'
                     name='email'
                     value={email}
                     onChange={handleChange}
@@ -81,7 +81,7 @@ const SignUpForm = () => {
 
                 <FormInput 
                     label='Password'
-                    type='text'
+                    type='password'
                     name='password'
                     value={password}
                     onChange={handleChange}
@@ -90,7 +90,7 @@ const SignUpForm = () => {
 
                 <FormInput 
                     label='Confirm Password'
-                    type='text'
+                    type='password'
                     name='confirmPassword'
                     value={confirmPassword}
                     onChange={handleChange}
