@@ -17,8 +17,5 @@ export const CategoriesProvider = ({ children }) => {
     }, [])
     const value = { categoriesMap };
 
-    //useEffect here?
-
-    // set state to default json data
     return <CategoriesContext.Provider value={value}> {children} </CategoriesContext.Provider>
 }
