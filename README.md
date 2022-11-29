@@ -4,7 +4,7 @@
 
 ![screely-1668830800890](https://user-images.githubusercontent.com/5871075/202835286-3cc8e263-5828-43c2-8c15-58ae88a1b5c5.png)
 
-[Click Here to Demo](https://kitkatnik-crwn-clothing.netlify.app/)
+[Click Here to Demo](https://ztm-crwn-clothing.netlify.app/)
 
 </div>
 
